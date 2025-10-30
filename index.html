@@ -10,7 +10,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="images/branding/PuffinLogo.png"  class="logo-icon">
+                <img src="images/PuffinLogo.png"  class="logo-icon">
                 <span>SaniBrau Labs</span>
             </div>
             <ul class="nav-links">
@@ -157,11 +157,11 @@
         </div>
     </section>
 
-<section id="progress">
+    <section id="progress">
         <h2>Development Progress</h2>
         <p class="section-subtitle">Currently in validation phase with NMSU engineering team support</p>
         
-        <div class="timeline" data-start="2025-07-01" data-end="2026-12-31" data-js-timeline="main">
+        <div class="timeline">
             <div class="milestone completed">
                 <div class="milestone-date">Q3 2025</div>
                 <h4>✓ Market Validation & Design</h4>
@@ -200,27 +200,21 @@
         
         <div class="team-grid">
             <div class="team-member">
-                <div class="team-photo">
-                    <img src="images/team/buehling_russell_headshot.jpg" alt="Photo of Russell Kevin Buehling">
-                </div>
+                <div class="team-photo">KB</div>
                 <h4>Russell "Kevin" Buehling</h4>
                 <div class="role">Co-Founder & CTO</div>
                 <p class="bio">EE/CompEng expertise in controls, automation, and embedded systems. Leading technical development and system integration.</p>
             </div>
             
             <div class="team-member">
-                <div class="team-photo">
-                    <img src="images/team/Nathan.jpg" alt="Photo of Nathan Marlin">
-                </div>
+                <div class="team-photo">NM</div>
                 <h4>Nathan Marlin</h4>
                 <div class="role">Co-Founder & COO</div>
                 <p class="bio">10 years naval engineering experience with power and fluid systems. Managing operations and brewery partnerships.</p>
             </div>
             
             <div class="team-member">
-                <div class="team-photo">
-                    <img src="images/team/taylor_stephen_headshot.png" alt="Photo of Dr Stephen Taylor">
-                </div>
+                <div class="team-photo">ST</div>
                 <h4>Dr. Stephen Taylor</h4>
                 <div class="role">Technical Advisor</div>
                 <p class="bio">NMSU Chemical Engineering faculty. Brewery Lab director with expertise in brewing processes and water treatment.</p>
@@ -240,23 +234,80 @@
                 <p class="bio">Multidisciplinary team of mechanical, electrical, and industrial engineering students supporting design and validation.</p>
             </div>
         </div>
-    
+        
+        <div class="university-badge">
+            🤝 Developed in Partnership with NMSU Engineering
+        </div>
     </section>
 
-
-<div class="beer-footer" id="contact">
-    <div class="beer-footer-content-wrapper">
+    <section id="contact" class="contact">
+        <h2>Let's Work Together</h2>
+        <p class="section-subtitle">Interested in becoming a pilot brewery partner or learning more about SaniBrau technology?</p>
         
-        <div class="contact-callout">
-            <h2>Interested?</h2>
-            <a href="mailto:rubueh@nmsu.edu" class="cta-button">Let's get a beer</a>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📧</span>
+                <a href="mailto:rubueh@nmsu.edu">rubueh@nmsu.edu</a>
+            </div>
+            <div class="contact-item">
+                <span>📧</span>
+                <a href="mailto:nwmarlin@nmsu.edu">nwmarlin@nmsu.edu</a>
+            </div>
+            <div class="contact-item">
+                <span>📞</span>
+                <span>(915) 412-8843</span>
+            </div>
+        </div>
+        
+        <a href="mailto:rubueh@nmsu.edu" class="cta-button" style="margin-top: 2rem;">Schedule a Consultation</a>
+    </section>
+
+    <div class="beer-footer">
+        <div class="beer-section">
+            <h3>Brewing a Sustainable Future, One Drop at a Time</h3>
+            <p>Because nothing beats great-tasting beer brewed with efficiency, sustainability, and precision automation.</p>
+            
+            <div class="beer-glass-container">
+                <svg class="beer-glass" viewBox="0 0 120 180" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Glass outline -->
+                    <path d="M30 20 L25 160 Q25 170, 35 170 L85 170 Q95 170, 95 160 L90 20 Z" 
+                          fill="none" stroke="#d4af37" stroke-width="3"/>
+                    
+                    <!-- Beer (amber liquid) -->
+                    <path d="M31 80 L26 160 Q26 168, 35 168 L85 168 Q94 168, 94 160 L89 80 Z" 
+                          fill="#d4721e" opacity="0.7"/>
+                    
+                    <!-- Foam head -->
+                    <ellipse cx="60" cy="75" rx="30" ry="12" fill="#f5f5dc"/>
+                    <ellipse cx="45" cy="70" rx="15" ry="8" fill="#ffffff" opacity="0.8"/>
+                    <ellipse cx="75" cy="68" rx="18" ry="9" fill="#ffffff" opacity="0.8"/>
+                    <ellipse cx="60" cy="65" rx="12" ry="6" fill="#ffffff" opacity="0.9"/>
+                    
+                    <!-- Bubbles -->
+                    <g class="bubbles">
+                        <circle class="bubble" cx="45" cy="140" r="3"/>
+                        <circle class="bubble" cx="60" cy="145" r="4"/>
+                        <circle class="bubble" cx="75" cy="138" r="2.5"/>
+                        <circle class="bubble" cx="50" cy="130" r="3.5"/>
+                        <circle class="bubble" cx="70" cy="125" r="3"/>
+                    </g>
+                    
+                    <!-- Condensation drops on glass -->
+                    <circle cx="35" cy="100" r="2" fill="#4a9eff" opacity="0.4"/>
+                    <circle cx="85" cy="110" r="2.5" fill="#4a9eff" opacity="0.4"/>
+                    <circle cx="40" cy="130" r="1.5" fill="#4a9eff" opacity="0.4"/>
+                </svg>
+            </div>
+            
+            <p style="font-size: 0.95rem; opacity: 0.8; margin-top: 2rem;">
+                ✓ Reduced water waste &nbsp;|&nbsp; ✓ Lower operating costs &nbsp;|&nbsp; ✓ Automated sanitation &nbsp;|&nbsp; ✓ Perfect pour every time
+            </p>
         </div>
     </div>
-</div>
 
     <footer>
         <p>&copy; 2025 SaniBrau Labs | Independently Funded Venture</p>
-        <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">Patent Pending | Developed in partnership with NMSU Engineering</p>
+        <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">Patent Pending | Developed with NMSU Engineering Partnership</p>
     </footer>
 
     <script>
@@ -296,87 +347,6 @@
             section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(section);
         });
-
-    const GREEN = '#27ae60';
-    const ORANGE = 'var(--accent-orange)';
-
-    function updateContinuousTimelineProgress() {
-        const today = new Date();
-        const timeline = document.querySelector('.timeline');
-        
-        if (!timeline) return;
-
-        const startDateAttr = timeline.dataset.start;
-        const endDateAttr = timeline.dataset.end;
-        
-        if (!startDateAttr || !endDateAttr) {
-            console.error("Timeline data-start or data-end attributes are missing.");
-            return;
-        }
-
-        const startDate = new Date(startDateAttr);
-        const endDate = new Date(endDateAttr);
-
-        const totalProjectDuration = endDate.getTime() - startDate.getTime();
-        const elapsedProjectDuration = today.getTime() - startDate.getTime();
-
-        if (totalProjectDuration <= 0) return;
-
-        let progressRatio = Math.min(1, Math.max(0, elapsedProjectDuration / totalProjectDuration));
-        let progressPercent = Math.round(progressRatio * 100);
-
-        // --- Update the continuous line gradient ---
-        const progressGradient = `linear-gradient(to bottom, ${GREEN} 0%, ${GREEN} ${progressPercent}%, ${ORANGE} ${progressPercent}%, ${ORANGE} 100%)`;
-        timeline.style.setProperty('--timeline-progress-gradient', progressGradient);
-        
-        // --- Calculate and update the arrow's position ---
-        // We need the actual height of the timeline container
-        const timelineHeight = timeline.offsetHeight; 
-        // Calculate the pixel position where the green line ends
-        const arrowPositionPixels = timelineHeight * progressRatio; 
-        timeline.style.setProperty('--green-line-end-position', `${arrowPositionPixels}px`);
-
-
-        // --- Update dot completion status based on individual milestone dates ---
-        const milestones = document.querySelectorAll('.milestone');
-        milestones.forEach((milestone) => {
-            const milestoneDateText = milestone.querySelector('.milestone-date').textContent;
-            
-            // This is complex logic due to "Q3 2025" text. 
-            // We'll use a robust approximation to find the end date of the quarter.
-            const [quarter, year] = milestoneDateText.split(' ');
-            const quarterNum = parseInt(quarter.substring(1));
-            const yearNum = parseInt(year);
-
-            // Construct a comparable Date object for the END of the current milestone's quarter
-            // Months are 0-indexed in JS (Jan=0, Dec=11). 
-            // Q1 ends March 31 (month 2); Q2 ends June 30 (month 5); Q3 ends Sept 30 (month 8); Q4 ends Dec 31 (month 11)
-            let monthEnd;
-            switch (quarterNum) {
-                case 1: monthEnd = 2; break; 
-                case 2: monthEnd = 5; break; 
-                case 3: monthEnd = 8; break; 
-                case 4: monthEnd = 11; break; 
-                default: monthEnd = 0;
-            }
-            
-            // Setting day 0 of the *next* month gets the last day of the target month
-            // Example: new Date(2025, 3, 0) gives Mar 31, 2025.
-            // If monthEnd is 2 (March), we use monthEnd + 1 (April) and day 0.
-            const milestoneEndDate = new Date(yearNum, monthEnd + 1, 0); 
-            
-            // Check if today's date is past or equal to the end date of this milestone's quarter
-            if (today >= milestoneEndDate) {
-                milestone.classList.add('completed');
-            } else {
-                milestone.classList.remove('completed');
-            }
-        });
-    }
-
-    // Call the function immediately on page load to set the correct state once.
-    updateContinuousTimelineProgress();
-
     </script>
 </body>
 </html>
