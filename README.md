@@ -1,4 +1,4 @@
-<img width="1024" height="683" alt="image" src="https://github.com/user-attachments/assets/13feecc8-72c4-4d3e-bb66-76e97beefbd4" /># rubueh.github.io
+# rubueh.github.io
 
 [sanibrau-pitch-site(1).html](https://github.com/user-attachments/files/23223283/sanibrau-pitch-site.1.html)
 <!DOCTYPE html>
