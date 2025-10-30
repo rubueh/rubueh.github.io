@@ -300,7 +300,7 @@
             color: var(--primary-green);
         }
 
-/* Timeline */
+        /* Timeline */
         .timeline {
             position: relative;
             padding-left: 2rem;
@@ -338,9 +338,6 @@
             box-shadow: 0 0 0 2px var(--accent-orange);
             z-index: 2; 
         }
-
-        /* REMOVE this rule: .milestone.completed::before { ... } */
-        /* JavaScript will now add/remove the 'completed' class dynamically */
         
         .milestone h4 {
             color: var(--primary-green);
@@ -380,17 +377,17 @@
         }
 
         .team-photo img {
-    /* Ensures the image fills the entire 150px x 150px circle */
-    width: 100%;
-    height: 100%;
-    
-    /* Crucial: Apply border-radius to the image so it doesn't spill out */
-    border-radius: 50%;
-    
-    /* MODIFIED: Scales the entire image down until it fully fits inside the circle.
-       It will show a small gap (the background color) if the photo is not square. */
-    object-fit: cover; 
-}
+            /* Ensures the image fills the entire 150px x 150px circle */
+            width: 100%;
+            height: 100%;
+            
+            /* Crucial: Apply border-radius to the image so it doesn't spill out */
+            border-radius: 50%;
+            
+            /* MODIFIED: Scales the entire image down until it fully fits inside the circle.
+            It will show a small gap (the background color) if the photo is not square. */
+            object-fit: cover; 
+        }
 
         .team-member h4 {
             color: var(--primary-green);
@@ -414,6 +411,9 @@
             background: var(--primary-green);
             color: white;
             text-align: center;
+
+            justify-content: center; /* 2. Centers content horizontally (main axis) */
+            align-items: center;
         }
 
         .contact h2 {
@@ -446,7 +446,7 @@
             background-color: var(--primary-green);
             
             /* Ensure GIF scales to 100% width and aligns to the bottom */
-            background-size: 100% auto; 
+            background-size: auto auto; 
             background-repeat: no-repeat;
             background-position: center bottom; 
             
@@ -456,6 +456,9 @@
             position: relative;
             overflow: hidden;
             color: white; /* Default text color for the footer */
+
+            display: grid; /* 1. Activates Grid */
+            place-items: center;
         }
 
         /* Ensure the gold line remains at the top */
@@ -476,7 +479,7 @@
             text-align: center; /* Center all text content */
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center items horizontally */
+            place-items: center center;/* Center items horizontally */
             gap: 2rem; /* Spacing between main content blocks */
         }
 
@@ -491,12 +494,7 @@
             max-width: 700px;
             margin: 0 auto 2rem;
             font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        /* Styling the detailed contact info */
-        .contact-details {
-            margin-bottom: 3rem;
+            opacity: 0.2;
         }
 
         .contact-info {
