@@ -1,5 +1,3 @@
-[sanibrau-pitch-site(1).html](https://github.com/user-attachments/files/23223283/sanibrau-pitch-site.1.html)
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
