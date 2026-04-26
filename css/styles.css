@@ -1000,6 +1000,18 @@ section[id] { scroll-margin-top: 80px; }
   .sb-target-list li { grid-template-columns: 1fr; gap: 8px; }
   .sb-footer-quiet { justify-content: flex-start; }
   .sb-footer-meta { text-align: left; }
+  .sb-hero { grid-template-columns: 1fr; gap: 32px; }
+  .sb-two-col { grid-template-columns: 1fr; gap: 32px; }
+  .sb-nav a:not(.sb-btn-primary) { display: none; }
+  .sb-header-inner { gap: 16px; }
+}
+
+@media (max-width: 600px) {
+  .sb-three-up { grid-template-columns: 1fr; gap: 14px; }
+  .sb-hero h1 { font-size: 40px; }
+  .sb-section { padding: 64px 24px; }
+  .sb-section.tight { padding: 48px 24px; }
+  .sb-header-inner { padding: 0 20px; }
 }
 
 /* Smooth scroll for anchor nav (added for static site) */
